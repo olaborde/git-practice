@@ -13,4 +13,7 @@ const logger = (name) => {
 
 logger('Big Joe')
 // Make a function called add that adds two numbers together. Try it with and without implicit returns
+
+const add = (number1, number2) => number1 + number2
+
 // Make a function called multiply that multiplies two numbers together. Try it with and without implicit returns
