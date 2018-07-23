@@ -22,3 +22,6 @@ console.log(sumArrow(3,4))
 
 console.log(add(8,8))
 // Make a function called multiply that multiplies two numbers together. Try it with and without implicit returns
+const multiply = (num1, num2) => { return num1 * num2}
+
+console.log(multiply( 5, -4))
