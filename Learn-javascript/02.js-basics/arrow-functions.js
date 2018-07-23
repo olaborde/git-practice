@@ -16,4 +16,9 @@ logger('Big Joe')
 
 const add = (number1, number2) => number1 + number2
 
+const sumArrow = (num1, num2) => num1 + num2
+
+console.log(sumArrow(3,4))
+
+console.log(add(8,8))
 // Make a function called multiply that multiplies two numbers together. Try it with and without implicit returns
