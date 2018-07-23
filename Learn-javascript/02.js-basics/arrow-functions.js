@@ -7,5 +7,10 @@ const ten = _ => console.log(10) // with ()
 
 ten()
 // Make a function named logger that takes in one argument. It logs the argument you passed into it. Try it with and without parenthesis ().
+const logger = (name) => {
+  console.log(`your name is ${name}`)
+}
+
+logger('Big Joe')
 // Make a function called add that adds two numbers together. Try it with and without implicit returns
 // Make a function called multiply that multiplies two numbers together. Try it with and without implicit returns
