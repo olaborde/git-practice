@@ -6,4 +6,4 @@ this is a test repo to demonstrate how Git and GitHub work
 just type this in your terminal:
 
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[here](https://stackoverflow.com/questions/30065227/run-open-vscode-from-mac-terminal/36882426#36882426)
