@@ -9,7 +9,12 @@ cars.carModel = 'Honda'
 cars.features = ['All-wheel drive', 'Remote start', 'Heated seats', 'Heated steering wheel']
 cars['Tires'] = 4
 // Get the value of a property with the dot notation
-const val1 = cars.tire
+const val1 = cars['tires']
+var arrayLength = cars.features.length;
+for (var i = 0; i < arrayLength; i++) {
+    alert(cars.features[i]);
+    //Do something
+}
 console.log("The cars has",val1, "tires")
 // Get the value of a property with the square bracket notation
 // Set the value of a property with the dot notation
