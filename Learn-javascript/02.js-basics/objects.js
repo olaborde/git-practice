@@ -9,6 +9,8 @@ cars.carModel = 'Honda'
 cars.features = ['All-wheel drive', 'Remote start', 'Heated seats', 'Heated steering wheel']
 cars['Tires'] = 4
 // Get the value of a property with the dot notation
+const val1 = cars.tire
+
 // Get the value of a property with the square bracket notation
 // Set the value of a property with the dot notation
 // Set the value of a property with the square bracket notation
