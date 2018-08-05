@@ -10,7 +10,7 @@ cars.features = ['All-wheel drive', 'Remote start', 'Heated seats', 'Heated stee
 cars['Tires'] = 4
 // Get the value of a property with the dot notation
 const val1 = cars.tire
-
+console.log("The cars has",val1, "tires")
 // Get the value of a property with the square bracket notation
 // Set the value of a property with the dot notation
 // Set the value of a property with the square bracket notation
