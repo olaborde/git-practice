@@ -11,6 +11,7 @@ cars['Tires'] = 4
 // Get the value of a property with the dot notation
 const val1 = cars.features
 var arrayLength = cars.features.length;
+console.log("These are some of the features of a car fro the winter:");
 for (var i = 0; i < arrayLength; i++) {
     console.log(cars.features[i]);
     //Do something
