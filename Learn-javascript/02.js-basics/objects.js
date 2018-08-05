@@ -1,9 +1,11 @@
 // Practice making objects. You need to use them a lot when you code for real. Do the following:
 
 // Make an empty object
-const empty_object = {}
+const cars = {}
 // Make a property for your object that can be accessed with a dot notation.
+cars.carModel = 'Honda'
 // Make a property for your object that can only be accessed with the bracket notation.
+
 // Get the value of a property with the dot notation
 // Get the value of a property with the square bracket notation
 // Set the value of a property with the dot notation
