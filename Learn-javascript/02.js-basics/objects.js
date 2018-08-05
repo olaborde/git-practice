@@ -9,10 +9,10 @@ cars.carModel = 'Honda'
 cars.features = ['All-wheel drive', 'Remote start', 'Heated seats', 'Heated steering wheel']
 cars['Tires'] = 4
 // Get the value of a property with the dot notation
-const val1 = cars['tires']
+const val1 = cars.features
 var arrayLength = cars.features.length;
 for (var i = 0; i < arrayLength; i++) {
-    alert(cars.features[i]);
+    console.log(cars.features[i]);
     //Do something
 }
 console.log("The cars has",val1, "tires")
