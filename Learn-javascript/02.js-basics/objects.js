@@ -6,6 +6,8 @@ const cars = {}
 cars.carModel = 'Honda'
 // Make a property for your object that can only be accessed with the bracket notation.
 
+cars.features = ['All-wheel drive', 'Remote start', 'Heated seats', 'Heated steering wheel']
+cars['Tires'] = 4
 // Get the value of a property with the dot notation
 // Get the value of a property with the square bracket notation
 // Set the value of a property with the dot notation
