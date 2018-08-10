@@ -22,3 +22,41 @@ console.log("The cars has",val1, "tires")
 // Set the value of a property with the square bracket notation
 // Make a method. Call this method
 // Make a method that takes in an argument. Call this method
+
+
+
+// Vehicle object
+
+const vehicle = {
+    make: 'Cadillac',
+    model: 'ATS COUPE',
+    year: 2018,
+    color: 'Blue',
+    trim: 'Premium Performance',
+      aMethod: function() {
+      // Do something in function
+      console.log('This is my car')
+    }
+    // ... Other specs
+  }
+  
+  const vehicleMake = vehicle.make
+  console.log(vehicleMake) // 512gb
+  
+  //only use the bracket notation when:
+  // When your property name is an invalid identifier
+  // When you need to get the value of a property through a variable
+  const vehicleModel = vehicle['model']
+  
+  console.log(vehicleModel)
+  
+  vehicle.price = 38450
+  vehicle['doors'] = 2
+  
+  
+  console.log('$',vehicle.price)
+  
+  console.log('Since the car i coupe, it has ',vehicle.doors, "doors")
+  
+  console.log(vehicle.aMethod())
+  
