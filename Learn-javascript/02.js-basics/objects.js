@@ -59,4 +59,9 @@ const vehicle = {
   console.log('Since the car i coupe, it has ',vehicle.doors, "doors")
   
   console.log(vehicle.aMethod())
-  
+  function myFunction() {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode("Water");
+    node.appendChild(textnode);
+    document.getElementById("star-wars-characters").appendChild(node);
+}  

@@ -13,3 +13,13 @@ Yoda with class and attribute selectors
 Darth Vader with class and attribute selectors
 Notice how you can't select Yoda and Darth Vader with tags when you use querySelector.
 */
+
+//Get the #star-wars-characters list with id and tag selectors.
+const starWarsCharacters = document.querySelector('.star-wars-characters')
+const humans = document.querySelector('.star-wars-characters')
+console.log(humans)
+console.log(starWarsCharacters)
+
+var parent = document.createElement("div");
+var p = document.createElement("p");
+parent.append("Some text", p);
