@@ -15,11 +15,16 @@ Notice how you can't select Yoda and Darth Vader with tags when you use querySel
 */
 
 //Get the #star-wars-characters list with id and tag selectors.
-const starWarsCharacters = document.querySelector('.star-wars-characters')
-const humans = document.querySelector('.star-wars-characters')
-console.log(humans)
-console.log(starWarsCharacters)
+const humans = document.querySelector('.humans')
+const firstHuman = humans.querySelector('li')
+console.log(firstHuman)
 
-var parent = document.createElement("div");
-var p = document.createElement("p");
-parent.append("Some text", p);
+
+
+
+function myFunction() {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode("Joe");
+    node.appendChild(textnode);
+    document.getElementById("star-wars-characters").appendChild(node);
+} 
